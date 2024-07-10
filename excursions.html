@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/excursions.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Экскурсии и туры по Абхазии</title>
+  </head>
+  <body>
+    <div class="container">
+        <header class="pattern section">
+            <nav class="layout">
+                <div class="nav-container">
+                    <div class="nav-container-info">
+                        <a href="./index.html" class="logo"><img src="./img/logo.png" alt="Logo"></a>
+                        <div class="hamburger-menu" id="header-hamburger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="popup-menu popup-menu-excursions none" id="header-popup-menu">
+                            <ul class="nav-links">
+                                <li class="nav-links-el"><a href="./index.html#comfort">Услуги</a></li>
+                                <li class="nav-links-el"><a href="#popular-excursions">Популярные направления</a></li>
+                                <li class="nav-links-el"><a href="#contacts">Контакты</a></li>
+                                <li class="nav-links-el"><a href="./index.html#faq">Вопросы</a></li>
+                            </ul>
+                        </div>
+                        <ul class="nav-links desctop">
+                            <li class="nav-links-el"> <a href="./index.html#comfort">Услуги</a></li>
+                            <li class="nav-links-el"><a href="#main-excursions">Популярные направления</a></li>
+                            <li class="nav-links-el"><a href="#contacts">Контакты</a></li>
+                            <li class="nav-links-el"><a href="./index.html#faq">Вопросы</a></li>
+                        </ul>
+                    </div>
+                    <button class="cta-button cta-button-header request-hide">Оставить заявку</button>
+                    <button class="cta-button cta-button-header request-view">Заявка</button>
+                </div>
+            </nav>
+        </header>
+
+      <section class="main-excursions section" id="main-excursions">
+        <div class="main-excursions-content">
+          <h1 class="main-excursions-content-title">Экскурсии и туры по Абхазии</h1>
+          <p class="main-excursions-content-text">Отель “У Моря” предлагает своим гостям погрузиться в абхазскуюкультуру, путешествуя по историческим местам нашей страны</p>
+          <a href="./index.html#hotel-number">
+            <button class="rooms-prices-button">Номера и цены</button>
+          </a>
+        </div>
+      </section>
+
+      <section class="popular-destinations section" id="popular-excursions">
+        <div class="popular-destinations-wrapper">
+          <h2 class="popular-destinations-title">Самые популярные направления</h2>
+          <div class="popular-destinations-content">
+            <div class="popular-destinations-content-item">
+              <img class="popular-destinations-content-item-image" src="./img/excursions/popular-destinations/afon.png" alt="New Athos">
+              <div class="popular-destinations-content-item-info">
+                <h3 class="popular-destinations-content-item-info-title">Новый Афон</h3>
+              </div>
+            </div>
+            <div class="popular-destinations-content-item">
+              <img class="popular-destinations-content-item-image" src="./img/excursions/popular-destinations/ritsa.png" alt="Lake Ritsa"/>
+              <div class="popular-destinations-content-item-info">
+                <h3 class="popular-destinations-content-item-info-title">Озеро Рица</h3>
+              </div>
+            </div>
+            <div class="popular-destinations-content-item">
+              <img class="popular-destinations-content-item-image" src="./img/excursions/popular-destinations/kodor.png" alt="Codorus"/>
+              <div class="popular-destinations-content-item-info">
+                <h3 class="popular-destinations-content-item-info-title kodor">Кодор</h3>
+              </div>
+            </div>
+            <div class="popular-destinations-content-item">
+              <img class="popular-destinations-content-item-image" src="./img/excursions/popular-destinations/gagsky.png" alt="Gega Falls"/>
+              <div class="popular-destinations-content-item-info">
+                <h3 class="popular-destinations-content-item-info-title gagsky">Гегский водопад</h3>
+              </div>
+            </div>
+            <div class="popular-destinations-content-item">
+              <img class="popular-destinations-content-item-image" src="./img/excursions/popular-destinations/mzy.png" alt="Lake Mzy"/>
+              <div class="popular-destinations-content-item-info">
+                <h3 class="popular-destinations-content-item-info-title">Озеро Мзы</h3>
+              </div>
+            </div>
+            <div class="popular-destinations-content-item">
+              <img class="popular-destinations-content-item-image" src="./img/excursions/popular-destinations/snt-places.png" alt="Holy places"/>
+              <div class="popular-destinations-content-item-info">
+                <h3 class="popular-destinations-content-item-info-title snt-places">Святые места</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts section" id="contacts">
+        <div class="contacts-wrapper">
+            <h2 class="contacts-title">Мы ждем вашей заявки!</h2>
+                <div class="contacts-data">
+                    <h3 class="contacts-data-number">+7 940 925-37-22</h3>
+                    <div class="contacts-data-social-network">
+                    <img src="./img/svg/telegram.svg" alt="Telegram">
+                    <img src="./img/svg/whatsapp.svg" alt="Whatsapp">
+                </div>
+            </div>
+            <div class="contacts-map-container">
+                <div class="contacts-map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A06cf5f3e2a41d52cbdc80651e24844dca657a706fb4c3237f1cb749bb3564d8d&amp;width=477&amp;height=286&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+            <div class="contacts-button-container">
+                <button class="cta-button leave-request request-hide">Оставить заявку</button>
+                <button class="cta-button leave-request request-view">Заявка</button>
+                <a href="./index.html#hotel-number">
+                    <button class="rooms-prices-button">Номера и цены</button>
+                </a>
+            </div>
+        </div>
+      </section>
+
+      <footer class="pattern section">
+        <nav class="layout footer">
+            <div class="nav-container">
+                <div class="nav-container-info">
+                    <a href="./index.html" class="logo"><img src="./img/logo.png" alt="Logo"></a>
+                    <div class="hamburger-menu" id="footer-hamburger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="popup-menu popup-menu-excursions footer none" id="footer-popup-menu">
+                        <ul class="nav-links">
+                                <li class="nav-links-el"> <a href="./index.html#comfort">Услуги</a></li>
+                                <li class="nav-links-el"><a href="#main-excursions">Популярные направления</a></li>
+                                <li class="nav-links-el"><a href="#contacts">Контакты</a></li>
+                                <li class="nav-links-el"><a href="./index.html#faq">Вопросы</a></li>
+                        </ul>
+                    </div>
+                    <ul class="nav-links desctop">
+                        <li class="nav-links-el"> <a href="./index.html#comfort">Услуги</a></li>
+                        <li class="nav-links-el"><a href="#main-excursions">Популярные направления</a></li>
+                        <li class="nav-links-el"><a href="#contacts">Контакты</a></li>
+                        <li class="nav-links-el"><a href="./index.html#faq">Вопросы</a></li>
+                    </ul>
+                </div>
+                <p class="right-text">Все права © защищены</p>
+            </div>
+        </nav>
+    </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
